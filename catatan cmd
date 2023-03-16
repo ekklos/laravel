@@ -1,0 +1,22 @@
+1.composer create-project laravel/laravel:^9.0 project-gallery
+membuat file
+
+2.cd project-gallery 
+pindah file
+
+3.php artisan make:migration create_products_table
+membuat table (harus diakhiri s untuk penamaan tabel)
+
+4.php artisan migrate
+meeng-eksekusi migration
+
+5.php artisan make:controller RegisterController atau LoginController or DashboardController
+membuat controller
+
+6.php artisan make:controller ProductController --model=Product --resource
+membuat model projek
+
+reminder:
+-Jangan lupa setiap coding di bagian web.php, untuk mengecek illuminate dll di bagian atas web.php
+-menggunakan @csrf dibawah form
+-koneksi ke database
